@@ -5,7 +5,7 @@ void main() async {
 }
 
 Future<String> fetchAge() async {
-  return Future.delayed(const Duration(microseconds: 1500), (() => '25'));
+  return Future.delayed(const Duration(milliseconds: 1500), (() => '25'));
 }
 
 String formatYears(int age) {
